@@ -1,14 +1,33 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
 #elementoFisso {
     background-color: black;
     position: fixed;
-    height: 100vh;
+    height: 72px;
     width: 100vw;
     margin-left: -8px;
     margin-top: -8px;
+    z-index: 4;
 
 
 
 }
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    
+
+}
+
+
 
 .tablecells { /*da sistemare */
 
@@ -21,5 +40,80 @@
     background-color: #4a4a4a;
     border-radius: 6px;
     border-left: 1px;
+    
 
+}
+
+
+.container-max{display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    
+
+}
+
+.propic{position: relative;
+    margin-top: 10px;
+    z-index: 3;
+    width:250px ;
+    height: 149px;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+
+}
+
+
+.utente {
+    display: inline-block;
+    color: white;
+    
+}
+
+
+footer{
+    background-color: #222222;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.pulsante-footer i{
+    font-size: 20pt;
+}
+
+.pulsante-footer-container{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.pulsante-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-right: 10px;
+}
+.end-meeting{
+    background-color: #4A4A4A;
+    color: red;
+    font-family: sans-serif;
+    font-size: 15pt;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
 }
